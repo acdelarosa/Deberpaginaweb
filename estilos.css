@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*nav bar*/
+
+.navbar_header {
+    height: 83px;
+    width: 100%;
+    background-color: rgb(22, 145, 104);
+    padding: 0 60px;
+    position: fixed;
+    
+}
+
+.navbar_header .navbar_nav {
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+.navbar_header .navbar_nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+
+.nav .logo .linkdenav {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+
+.navbar_header .navbar_nav .linkdenav {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar_header .navbar_nav .linkdenav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*imagen grande*/
+
+.imagengrande {
+    height: 1920px;
+    width: 100%;
+    background-image: url("./img/muellemadera.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.inputbusqueda {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.realstate h1 {
+    width: 746px;
+    height: 99px;
+    color: white;
+    font-size: 80px;
+}
+
+.realstate span {
+    color: #B4B7B7;
+    width: 490px;
+    height: 47px;
+    left: 122px;
+    font-size: 40px;
+}
+
+
+.inputbusqueda:focus {
+    outline:
+}
+
+.inputvermas {
+    border: 1px solid #ffff;
+    border-radius: 100px;
+    border-width: 1px;
+    max-width: fit-content;
+    box-shadow: none;
+    outline: none;
+}
