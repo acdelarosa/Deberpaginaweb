@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*nav bar*/
 
 .navbar_header {
@@ -36,16 +40,17 @@
     align-items: baseline;
 }
 
+.navbar_header .navbar_nav a .navbar_logo {
+    height: fit-content;
+    width: fit-content;
+  }
 
-.navbar_header .navbar_nav .linkdenav {
+.navbar_header .linkdenav {
     display: flex;
     gap: 40px;
 }
 
-.navbar_header .navbar_nav .linkdenav a {
-    text-decoration: none;
-    color: black;
-}
+
 
 
 
@@ -59,9 +64,10 @@
     overflow: hidden;
 }
 
-.inputbusqueda {
+.imagengrande .inputbusqueda {
     display: flex;
     justify-content: flex-end;
+
 }
 
 .realstate h1 {
@@ -71,24 +77,28 @@
     font-size: 80px;
 }
 
-.realstate span {
+.realstate {
     color: #B4B7B7;
     width: 490px;
     height: 47px;
+    position: absolute;
     left: 122px;
+    top: 50%;
     font-size: 40px;
 }
 
 
-.inputbusqueda:focus {
-    outline:
+.viewallproperties {
+    border: 3px solid #ffff;
+    border-radius: 100px;
+    max-width: fit-content;
+    
 }
 
-.inputvermas {
-    border: 1px solid #ffff;
-    border-radius: 100px;
-    border-width: 1px;
-    max-width: fit-content;
-    box-shadow: none;
-    outline: none;
+.viewallproperties a {
+    color: white;
+    width: 227px;
+    height: 32px;
 }
+
+
