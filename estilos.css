@@ -21,6 +21,7 @@ body {
     /* background-color: rgb(22, 145, 104);*/
     padding: 0 60px;
     position: fixed;
+    z-index: 55;
 
 }
 
@@ -71,92 +72,87 @@ body {
 
 /*inicio de imagen grande*/
 
-.contenedorimagenprincipal {
-    height: 1920px;
-    width: 1080px;
-    font-size: 52px;
-    font-weight: 700;
-    margin-bottom: 24px;
-    overflow: hidden;
-overflow-y: hidden;}
+.home_section__presentation {
+    width: 100%;
+    height: 850px;
+    position: relative;
+    display: flex;
+    overflow-x: hidden;
 
-/*
-    background-image: url("./img/Luxuryhouse.png");
-    background-repeat: no-repeat;
-    overflow: hidden;
+    justify-content: flex-start;
     align-items: center;
+    background-color: grey;
+
+    /* background-image: url('./img/home-background-flex-living.png');
     background-position: center center;
-    background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
 
-
-
-.contenedorimagenprincipal .imagenprincipal {
-    z-index: -1;
+.home_section__presentation .imagenpresentacion {
+    z-index: 1;
     position: absolute;
     height: 100%;
-    width: 100%;
-    align-items: center center;
 
-    
 }
 
 
+    .topnav {
+        overflow: hidden;
+        background-color: #e9e9e9;
+      }
+      .topnav > input {
+        
+        display: block;
+        color: black;
+        background-color: red;
+        position: relative;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        z-index: 999;
+        border-radius: 100px;
+      }
 
-
-
-.contenedorimagenprincipal .realstate {
-    z-index: 55;
-    top: 25px;
-    left: 10px;
+.home_section__presentation .home_section__container-text {
+    z-index: 2;
+    width: 600px;
+    height: fit-content;
+    padding: 100px 100px;
+    display: inline-block;
     position: absolute;
+    left: 15px;
+    top: 400px;
 }
 
-
-
-.contenedorimagenprincipal .realstate>span {
-    color: #B4B7B7;
-    position: relative;
-    top: 345px;
-    left: 73px;
-    font-size: 40px;
-    z-index: 5;
-    width: 490px;
-    height: 47px;
-}
-
-
-.contenedorimagenprincipal .realstate>h1 {
-    width: 746px;
-    height: 99px;
-    position: relative;
-    color: #ffff;
-    font-size: 52px;
+.home_section__presentation .home_section__container-text h1 {
+    font-size: 80px;
     font-weight: 700;
-    margin-bottom: 60px;
-    top: 395px;
-    right: 80px;
-    border: 240 16 39;
-    z-index: 5;
-    display: inline-block;
+    margin-bottom: 24px;
+    color: #ffff;
 }
 
-.contenedorimagenprincipal .viewall {
-    border: 3px solid #ffff;
-    border-radius: 100px;
-    position: relative;
-    max-width: fit-content;
-    max-height: fit-content;
-    height: 68px;
-    width: 407px;
-    top: 450px;
-    right: 845px;
-    z-index: 777;
-    display: inline-block;
-    }
+.home_section__presentation .home_section__container-text p {
+    font-family: var(--font-family-lato);
+    font-size: 40px;
+    color: #B4B7B7;
+    font-weight: 400;
+}
 
-.viewall>a {
-    color: white;
-    width: 150px;
-    height: 32px;
-    font-size: 30px;
+.home_section__presentation .home_section__container-text .viewall {
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #ffff;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+/* Fin de home section */
+
+/* Inicio cuadro semifinal */
+
+.primera_lineaimg {
+    display: grid
+    grid-template-columns: 25% 25% 25% 25%;
 }
