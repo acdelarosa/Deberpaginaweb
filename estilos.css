@@ -70,7 +70,7 @@ body {
 
 
 
-/*inicio de imagen grande*/
+/*inicio de home section*/
 
 .home_section__presentation {
     width: 100%;
@@ -89,6 +89,9 @@ body {
     background-size: cover; */
 }
 
+
+/* background */
+
 .home_section__presentation .imagenpresentacion {
     z-index: 1;
     position: absolute;
@@ -97,23 +100,44 @@ body {
 }
 
 
-    .topnav {
-        overflow: hidden;
-        background-color: #e9e9e9;
-      }
-      .topnav > input {
-        
-        display: block;
-        color: black;
-        background-color: red;
-        position: relative;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        z-index: 999;
-        border-radius: 100px;
-      }
+/* barra search */
+
+.topnav {
+
+    top: 25px;
+    right: 25px;
+    border: 1px solid white;
+}
+
+.topnav>input {
+
+    display: block;
+    color: rgb(253, 253, 253);
+    position: relative;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 300px;
+    height: 40px;
+    bottom: 285px;
+    left: 1000px;
+    font-size: 17px;
+    z-index: 999;
+    border: 3px solid #e9e9e9;
+    border-radius: 100px;
+    background-color: inherit;
+
+
+}
+
+/* .topnav>input:hover {
+    color: inherit;
+    border: 4px solid white;
+} */
+
+
+
+/* home section text luxury */
 
 .home_section__presentation .home_section__container-text {
     z-index: 2;
@@ -148,11 +172,78 @@ body {
     padding: 15px;
 }
 
+/* inicio de redes sociales vertical */
+
+.home_section__presentation .home_section_vertical_social {
+    position: absolute;
+    z-index: 999;
+    left: 20px;
+    bottom: 45px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.home_section_vertical_social .follow {
+
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #7E7E7E;
+    line-height: 1px;
+    width: 100%;
+    height: auto;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.home_section_vertical_social .line-vertical {
+    height: 45px;
+    border-left: 1px solid #7E7E7E;
+    margin-top: 15px;
+}
+
+.home_section_vertical_social .social {
+    height: 18px;
+    width: 18px;
+}
+
+
 /* Fin de home section */
 
 /* Inicio cuadro semifinal */
 
 .primera_lineaimg {
-    display: grid
+    display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 250px;
+
+}
+
+.primera_lineaimg .surfrow {
+    height: 300px;
+    width: 300px;
+}
+
+.primera_lineaimg .indigo {
+    height: 300px;
+    width: 300px;
+}
+
+.primera_lineaimg .rosewood {
+    height: 300px;
+    width: 300px;
+}
+
+.primera_lineaimg .astor {
+    height: 300px;
+    width: 300px;
 }
