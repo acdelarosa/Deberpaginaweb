@@ -274,6 +274,7 @@ a {
     height: 407px;
 }
 
+
 .imagenes {
     grid-column: span 5;
     overflow: hidden;
@@ -288,12 +289,6 @@ a {
     background-color: white;
     color: black;
     height: 80px;
-    
-}
-
-.imagenespdos {
-   color: #ffff;
-   
 
 }
 
@@ -307,7 +302,8 @@ a {
     grid-column: span 2;
 }
 
-.imagenes .imagenesp {
+.imagenesp,
+.dos {
     position: absolute;
     color: white;
     z-index: 1;
@@ -318,6 +314,12 @@ a {
     margin: 0;
     transition: 0.3s ease;
 }
+
+.imagenesp .dos {
+    font-size: 30px;
+}
+
+/* contenedor textos de first img container*/
 
 .contenedor-textos {
     padding: 0 50px;
@@ -357,12 +359,20 @@ a {
     border-radius: 20px;
 }
 
+.btn-primary:hover {
+    cursor: pointer;
+}
+
 .prevnext {
     background-color: transparent;
     border: none;
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.prevnext:hover {
+    cursor: pointer;
 }
 
 .next {
@@ -377,6 +387,121 @@ a {
     height: 20px;
 }
 
+
 /* end botones */
 
 /* fin de img first contenedor */
+
+
+/* start second img container */
+
+.contenedor_dos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+    margin-top: 50px;
+    width: 100%;
+    top: 1804px;
+}
+
+/* textos */
+
+.textos-dos {
+    padding: 0 50px;
+}
+
+.worldwide-dos {
+    color: orange;
+    font-size: 30px;
+}
+
+.rent {
+    font-size: 60px;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.parrafo {
+    font-size: 30px;
+
+}
+
+
+
+/* imagenes */
+
+.contenedor-imagenes-dos {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    overflow-x: hidden;
+    gap: 10px;
+    height: 407px;
+}
+
+.imagenes-dos {
+    grid-column: span 5;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes-dos:hover {
+    cursor: pointer;
+}
+
+.imagenes-dos:hover p {
+    background-color: white;
+    color: black;
+    height: 80px;
+}
+
+.imagenes-dos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.active-dos {
+    grid-column: span 2;
+}
+
+.imagenes-dos>p {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    transition: 0.3s ease;
+}
+
+/* End segundo cuadro */
+
+
+/* título tercer cuadro */
+
+.tercer-titulo {
+    width: 100%;
+    top: 2694px;
+    margin: 50px;
+    text-align: center;
+}
+
+.tercer-luxury {
+    font-size: 40px;
+    color: #DF991B;
+    align-self: center;
+    text-align: center;
+}
+
+.tercer-titulo-developments {
+    font-size: 80px;
+    color: black;
+    align-self: center;
+    text-align: center;
+}
+
+
+/* end tercer titulo */
