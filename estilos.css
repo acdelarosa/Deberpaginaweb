@@ -250,6 +250,8 @@ a {
 
 /* Fin de home section */
 
+
+
 /* start first img table */
 
 
@@ -285,12 +287,6 @@ a {
     cursor: pointer;
 }
 
-.imagenes:hover p {
-    background-color: white;
-    color: black;
-    height: 80px;
-
-}
 
 .imagenes img {
     width: 100%;
@@ -302,8 +298,7 @@ a {
     grid-column: span 2;
 }
 
-.imagenesp,
-.dos {
+.sitio {
     position: absolute;
     color: white;
     z-index: 1;
@@ -313,11 +308,26 @@ a {
     padding: 10px;
     margin: 0;
     transition: 0.3s ease;
+    line-height: 15px;
 }
 
-.imagenesp .dos {
+.imagenesp {
+    font-size: 20px;
+
+}
+
+.imagenespdos{
     font-size: 30px;
 }
+
+.sitio:hover {
+    background-color: white;
+    color: black;
+    height: 80px;
+
+}
+
+
 
 /* contenedor textos de first img container*/
 
@@ -395,6 +405,8 @@ a {
 
 /* start second img container */
 
+/* contenedor general */
+
 .contenedor_dos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -405,7 +417,7 @@ a {
     top: 1804px;
 }
 
-/* textos */
+/* textos grandes*/
 
 .textos-dos {
     padding: 0 50px;
@@ -449,7 +461,7 @@ a {
     cursor: pointer;
 }
 
-.imagenes-dos:hover p {
+.sitiodos:hover  {
     background-color: white;
     color: black;
     height: 80px;
@@ -465,7 +477,7 @@ a {
     grid-column: span 2;
 }
 
-.imagenes-dos>p {
+/* .imagenes-dos .par {
     position: absolute;
     color: white;
     z-index: 1;
@@ -475,7 +487,37 @@ a {
     padding: 10px;
     margin: 0;
     transition: 0.3s ease;
+} */
+
+.sitiodos {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    transition: 0.3s ease;
+    line-height: 15px;
 }
+
+.imagenespa {
+    font-size: 20px;
+
+}
+
+.imagenespados{
+    font-size: 30px;
+}
+
+.sitiodos:hover {
+    background-color: white;
+    color: black;
+    height: 80px;
+
+}
+
 
 /* End segundo cuadro */
 
@@ -505,3 +547,88 @@ a {
 
 
 /* end tercer titulo */
+
+/* start tercer contenedor de imagenes */
+
+.contenedorimg {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    margin: 50px;
+    gap: 14px;
+    align-self: center;
+    overflow: hidden;
+
+    
+    }
+
+
+
+.imagenestres {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenestres img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    position: relative;
+}
+
+
+.imagenestres:hover {
+    cursor: pointer;
+}
+
+/* .imagenestres .sitiotres {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    z-index: 80;
+    top: 500px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    transition: 0.3s ease;
+    height: 50px;
+    background-color: bisque;
+
+} */
+
+.sitiotres {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: #ffff;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    transition: 0.3s ease;
+    line-height: 15px;
+}
+
+.sitiotres:hover  {
+    background-color: white;
+    color: black;
+    height: 100px;
+}
+
+.pais {
+    font-size: 20px;
+
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+
+
