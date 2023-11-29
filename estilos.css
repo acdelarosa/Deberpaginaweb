@@ -9,9 +9,10 @@ a {
     color: #ffff;
 }
 
-/* body {
-    background-color: aqua;
-} */
+body {
+    margin-right: 0;
+    overflow-x: hidden;
+}
 
 /*nav bar*/
 
@@ -206,9 +207,9 @@ a {
 /* inicio de redes sociales vertical */
 
 .home_section__presentation .home_section_vertical_social {
-    position: absolute;
+    position: fixed;
     z-index: 999;
-    left: 20px;
+    left: 3px;
     bottom: 45px;
     height: auto;
 
@@ -219,6 +220,7 @@ a {
     align-items: center;
 
     gap: 20px;
+
 }
 
 .home_section_vertical_social .follow {
@@ -283,9 +285,26 @@ a {
     position: relative;
 }
 
-.imagenes:hover {
+.imagenes:hover .sitio {
     cursor: pointer;
+    background-color: white;
+    color: black;
+    height: 80px;
 }
+
+.imagenes:hover .castillo {
+    display: inline-block;
+}
+
+.sitio .castillo {
+    display: none;
+    height: 15px;
+    width: 15px;
+}
+
+
+
+
 
 
 .imagenes img {
@@ -316,16 +335,18 @@ a {
 
 }
 
-.imagenespdos{
+.imagenespdos {
     font-size: 30px;
 }
 
-.sitio:hover {
+/* .sitio:hover {
     background-color: white;
     color: black;
     height: 80px;
 
-}
+} */
+
+
 
 
 
@@ -354,6 +375,7 @@ a {
     display: flex;
     gap: 20px;
     margin-top: 50px;
+    margin-left: 15px;
 }
 
 .botones {
@@ -415,6 +437,7 @@ a {
     margin-top: 50px;
     width: 100%;
     top: 1804px;
+    margin-left: 30px;
 }
 
 /* textos grandes*/
@@ -457,11 +480,26 @@ a {
     position: relative;
 }
 
-.imagenes-dos:hover {
+.imagenes-dos:hover .sitiodos {
     cursor: pointer;
+    background-color: white;
+    color: black;
+    height: 80px;
+
+
 }
 
-.sitiodos:hover  {
+.sitiodos .castillo {
+    display: none;
+    height: 15px;
+    width: 15px;
+}
+
+.imagenes-dos:hover .castillo {
+    display: inline-block;
+}
+
+.sitiodos:hover {
     background-color: white;
     color: black;
     height: 80px;
@@ -507,16 +545,16 @@ a {
 
 }
 
-.imagenespados{
+.imagenespados {
     font-size: 30px;
 }
 
-.sitiodos:hover {
+/* .sitiodos:hover {
     background-color: white;
     color: black;
     height: 80px;
 
-}
+} */
 
 
 /* End segundo cuadro */
@@ -560,9 +598,9 @@ a {
     gap: 14px;
     align-self: center;
     overflow: hidden;
-
+    margin-left: 60px;
     
-    }
+}
 
 
 
@@ -615,7 +653,7 @@ a {
     line-height: 15px;
 }
 
-.sitiotres:hover  {
+.sitiotres:hover {
     background-color: white;
     color: black;
     height: 100px;
@@ -633,6 +671,3 @@ a {
 /* end tercer cuadro */
 
 /* start cuarto cuadro */
-
-
-
