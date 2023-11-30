@@ -103,7 +103,7 @@ body {
     height: 100%;
     width: 100%;
     border-right: 0;
-    filter: contrast(70%)
+    filter: contrast(70%);
 }
 
 
@@ -196,7 +196,6 @@ body {
 }
 
 .home_section__presentation .home_section__container-text p {
-    font-family: var(--font-family-lato);
     font-size: 40px;
     color: #B4B7B7;
     font-weight: 400;
@@ -810,32 +809,50 @@ body {
 
 /* end botones */
 
-/* inicio cuadro plomo */
+/* inicio footer */
 
-.footer {
+footer {
     background-color: #000000;
-    height: 647px;
+    height: 500px;
     width: 100%;
     position: relative;
-}
-
-.cuadroplomo {
-    background-color: #26282B;
-    position: absolute;
-    height: 310px;
-    width: 80%;
+    z-index: 1;
 
 }
 
-/* cuadro texto izquierda */
-.join {
-    color: #DF991B;
-    font-size: 20px;
+.cuadroplomo{
+
 
 }
 
-.unlock {
+
+/* cuadro negro */
+
+.cuadro_negro {
     color: #ffff;
-    font-size: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    line-height: 50px;
+    margin: 80px 10% 20px 10%;
+    border-bottom: 2px solid #ffff;
+    padding-bottom: 5%;
+    gap: 5%;
+    top: 40%;
 
 }
+
+
+
+.none {
+    display: none;
+}
+
+
+.contacto {
+    font-size: 30px;
+}
+
+.textofooter {
+    font-size: 20px;
+}
+
