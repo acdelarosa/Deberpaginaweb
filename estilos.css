@@ -14,6 +14,7 @@ body {
     overflow-x: hidden;
     /* margin-left: 40px; */
     width: 100%;
+    font-family: playfair display;
 }
 
 /*nav bar*/
@@ -170,6 +171,7 @@ body {
 }
 
 
+
 /* final barra search */
 
 
@@ -289,6 +291,10 @@ body {
     position: relative;
 }
 
+.imagenes:hover {
+    cursor: pointer;
+}
+
 .imagenes:hover .sitio {
     cursor: pointer;
     background-color: white;
@@ -366,12 +372,13 @@ body {
     color: #DF991B;
     font-size: 30px;
     text-align: right;
-    padding: 0 0 0 100px;
+    display: block;
 }
 
 .properties {
     font-size: 60px;
     line-height: 50px;
+    font-family: playfair display;
 }
 
 /* start botones */
@@ -456,14 +463,15 @@ body {
 }
 
 .rent {
-    font-size: 60px;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 50px;
+    font-family: playfair display;
 }
 
 .parrafo {
-    font-size: 30px;
-
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 20px;
 }
 
 
@@ -491,6 +499,10 @@ body {
     height: 80px;
 
 
+}
+
+.contenedor-imagenes-dos:hover {
+    cursor: pointer;
 }
 
 .sitiodos .castillo {
@@ -585,6 +597,7 @@ body {
     color: black;
     align-self: center;
     text-align: center;
+    font-family: playfair display;
 }
 
 
@@ -681,7 +694,7 @@ body {
 .container-cuarto {
     display: grid;
     grid-template-columns: 60% 40%;
-    gap: 10px;
+    /*  gap: px; */
     place-items: center;
     margin-top: 50px;
     width: 100%;
@@ -729,14 +742,16 @@ body {
     color: #DF991B;
     font-size: 30px;
     text-align: right;
-    padding: 0 0 0 100px;
+    /* padding: 0 0 0 0px; */
     line-height: 50px;
 
 }
 
 .propertiescuatro {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 50px;
+    align-content: center;
+
 }
 
 .parrafolargo {
@@ -794,3 +809,33 @@ body {
 
 
 /* end botones */
+
+/* inicio cuadro plomo */
+
+.footer {
+    background-color: #000000;
+    height: 647px;
+    width: 100%;
+    position: relative;
+}
+
+.cuadroplomo {
+    background-color: #26282B;
+    position: absolute;
+    height: 310px;
+    width: 80%;
+
+}
+
+/* cuadro texto izquierda */
+.join {
+    color: #DF991B;
+    font-size: 20px;
+
+}
+
+.unlock {
+    color: #ffff;
+    font-size: 50px;
+
+}
