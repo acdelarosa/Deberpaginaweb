@@ -511,12 +511,14 @@ body {
     overflow-x: hidden;
     gap: 10px;
     height: 407px;
+    width: 100%;
 }
 
 .imagenes-dos {
     grid-column: span 5;
     overflow: hidden;
     position: relative;
+    width: 100%;
 }
 
 .imagenes-dos:hover .sitiodos {
