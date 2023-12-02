@@ -64,9 +64,9 @@ body {
     align-items: baseline;
 }
 
-.logoen{
- width: 20%;
- height: 80%;
+.logoen {
+    width: 20%;
+    height: 80%;
 }
 
 .navbar_header .navbar_nav a .navbar_logo {
@@ -101,8 +101,8 @@ body {
     background-image: url(./img/back/background.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-   
+    background-size: 100vw;
+
     /* background-image: url('./img/home-background-flex-living.png');
     background-position: center center;
     background-repeat: no-repeat;
@@ -124,6 +124,14 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     box-sizing: border-box;
+} */
+
+/* .imagenpresentacion {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top -300px right 0;
+
 } */
 
 
@@ -840,10 +848,48 @@ footer {
 
 }
 
-.cuadroplomo {
-
+.news {
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    gap: 16px;
+    padding: 16px 50px;
+    width: 80%;
+    align-self: center;
+    justify-content: center;
     position: absolute;
-    
+}
+
+.news span {
+    color: orange;
+    font-size: 20px;
+}
+
+.news p {
+    color: white;
+    font-size: 32px;
+}
+
+.footer-form {
+    display: grid;
+    gap: 8px;
+}
+
+.footer-form input {
+    background-color: transparent;
+    border: solid 2px grey;
+    border-radius: 20px;
+    padding: 6px 16px;
+    width: 100%;
+}
+
+.footer-form button {
+    background-color: transparent;
+    border: solid 2px orange;
+    border-radius: 20px;
+    padding: 6px 32px;
+    width: fit-content;
+    color: orange;
+    justify-self: end;
 }
 
 
@@ -855,11 +901,12 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     line-height: 50px;
     margin: 80px 10% 20px 10%;
-    border-bottom: 2px solid #ffff;
+    /* border-bottom: 2px solid #ffff; */
     padding-bottom: 5%;
     gap: 5%;
     top: 40%;
-    
+    position: relative;
+
 
 }
 
@@ -876,4 +923,27 @@ footer {
 
 .textofooter {
     font-size: 20px;
+}
+
+/* copyright */
+
+.bar {
+    color: #ffff;
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    display: block;
+}
+
+.footer-bar {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 16px;
+    bottom: 10px;
 }
