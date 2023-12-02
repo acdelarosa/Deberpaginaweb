@@ -848,23 +848,27 @@ footer {
 
 }
 
-.news {
+.suscribe {
     background-color: rgb(39, 39, 39);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 16px;
     padding: 16px 50px;
     width: 80%;
     align-self: center;
     justify-content: center;
     position: absolute;
+    top: -15%;
+    left: 10%;
+
 }
 
-.news span {
-    color: orange;
+.Join {
+    color: #DF991B;
     font-size: 20px;
 }
 
-.news p {
+.unlock {
     color: white;
     font-size: 32px;
 }
@@ -874,24 +878,35 @@ footer {
     gap: 8px;
 }
 
-.footer-form input {
+.input {
     background-color: transparent;
-    border: solid 2px grey;
-    border-radius: 20px;
+    border: solid 1px #7E7E7E;
+    border-radius: 100px;
     padding: 6px 16px;
-    width: 100%;
+    width: 80%;
 }
 
-.footer-form button {
+.submit {
     background-color: transparent;
-    border: solid 2px orange;
-    border-radius: 20px;
-    padding: 6px 32px;
+    border: solid 1px #DF991B;
+    border-radius: 100px;
+    padding: 6px 50px;
     width: fit-content;
-    color: orange;
-    justify-self: end;
+    color: #DF991B;
+    justify-self: left 60%;
+    position: relative;
+
 }
 
+
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.nameuno {
+    color: #ffff;
+}
 
 /* cuadro negro */
 
