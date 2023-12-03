@@ -60,32 +60,88 @@
 
     /* first container titulos */
     .worldwide {
-        font-size: 15px;
+        font-size: 20px;
 
     }
 
-    .properties{
+    .properties {
         font-size: 30px;
     }
 
+    .imagenesp{
+        font-size: 10px;
+    
+    }
+
+    .imagenespdos{
+        font-size: 15px;
+    }
 
 
     /* contenedor dos textos */
 
-    .worldwide-dos{
-        font-size: 15px;
+    .worldwide-dos {
+        font-size: 20px;
 
     }
 
-    .rent{
+    .rent {
         font-size: 30px;
     }
 
-    .parrafo{
-        font-size-adjust: calc(25%);
+    .parrafo {
+        font-size: 10px;
     }
+
+    /* titulo tercer cuadro */
+
+    .tercer-luxury {
+        font-size: 30px;
+    }
+
+    .tercer-titulo.developments{
+        font-size: 40px;
+    }
+
+
+    .imagenespa{
+        font-size: 10px;
+    }
+
+    .imagenespados{
+        font-size: 15px;
+    }
+
+    /* tercer cuadro */
+
+    .pais{
+        font-size: 10px;
+    }
+
+    .titulo{
+        font-size: 15px;
+    }
+
+
+/* cuarto cuadro */
+
+
+
+.services{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.propertiescuatro{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.parrafolargo{
+    font-size: 15px;
+}
+
 
 
 
 }
-
