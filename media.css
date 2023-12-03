@@ -37,10 +37,11 @@
 
     .home_section__presentation {
         background-size: cover;
+        font-size: -30%;
     }
 
     .luxury {
-        font-size: 10%;
+        font-size: ;
     }
 
     .home_section__container-text h1 {
@@ -50,131 +51,41 @@
     .home_section_vertical_social {
         display: none;
     }
-}
 
-/* @media (max-width: 1262px) {
-
-  
-
-    .contenedorimg {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .titulo {
-        font-size: 90%;
-    }
-}
-
-@media (max-width: 980px) {
-    .pais {
-        font-size: 18px;
-    }
-
-    .titulo {
-        font-size: 80%px;
-    }
-
-
-}
-
-@media (max-width: 733px) {
-    .navbar_header{
-        height: 40px;
-        position: relative;
-        background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)) url(./img/back/larga.png);
-        background-repeat: no-repeat;
-        grid: 1fr 1fr;
-
-    }
-
-    .logopeque{
-        display: inline-block;
-        z-index: 55;
+    .lupa {
         position: absolute;
-        justify-content: left;
-        justify-items: left;
-        right: 90%;
+        align-self: center;
 
     }
 
-    .logogen{
-        display: none;
+    /* first container titulos */
+    .worldwide {
+        font-size: 15px;
 
     }
 
-    .login{
-        display: none;
-            }
-
-    .iconomenu{
-        display: inline-block;
-        justify-content: right;
-        justify-items: right;
-        right: 80%;
-
-    }
-
-   
-
-    .home_section_presentation{
-        height: 220px;
-        width: 100%;
-        background-image: url(./img/back/larga.png);
-        background-position: center;
-        box-sizing: border-box;
-        background-size: auto-fit;
-
-    }
-
-    
-
-    .home_section__presentation .home_section__container-text h1 {
-        font-size: 40px;
-        font-weight: 700;
-        margin-bottom: 24px;
-        color: #ffff;
-    }
-
-    .home_section__presentation .home_section__container-text p {
-        font-size: 20px;
-        color: #B4B7B7;
-        font-weight: 400;
+    .properties{
+        font-size: 30px;
     }
 
 
 
+    /* contenedor dos textos */
+
+    .worldwide-dos{
+        font-size: 15px;
+
+    }
+
+    .rent{
+        font-size: 30px;
+    }
+
+    .parrafo{
+        font-size-adjust: calc(25%);
+    }
 
 
 
 }
 
-
-
-
-@media (max-width: 320px) {
-
-   
-    .home_section_presentation {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .login {
-        display: none;
-    }
-
-    .logogen {
-        display: none;
-    }
-
-    .logopeque {
-        display: inline-block;
-        z-index: 5;
-    }
-
-    .iconomenu {
-        display: inline-block;
-        z-index: 5;
-    }
-} */
