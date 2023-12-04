@@ -262,7 +262,7 @@ body {
     font-weight: 800;
     color: #7E7E7E;
     line-height: 1px;
-    font-size: 10%;
+    font-size: 100%;
     width: 100%;
     height: auto;
     transform: rotate(90deg);
@@ -423,11 +423,11 @@ body {
 }
 
 .btn-primary {
-    font-weight: 600;
+    font-weight: 60px;
     border: solid 1px black;
     background-color: transparent;
     padding: 10px 50px;
-    border-radius: 20px;
+    border-radius: 100px;
 }
 
 .btn-primary:hover {
@@ -789,7 +789,7 @@ body {
 }
 
 /* start botones */
-.botones {
+/* .botones {
     display: flex;
     gap: 20px;
     margin-top: 50px;
@@ -802,7 +802,7 @@ body {
 }
 
 .btn-primary {
-    font-weight: 600;
+    font-weight: 60px;
     border: solid 1px black;
     background-color: transparent;
     padding: 10px 50px;
@@ -836,9 +836,11 @@ body {
 .prevnext img {
     height: 20px;
 }
-
+ */
 
 /* end botones */
+
+
 
 /* inicio footer */
 
@@ -916,7 +918,7 @@ footer {
 .cuadro_negro {
     color: #ffff;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     line-height: 50px;
     margin: 80px 10% 20px 10%;
     /* border-bottom: 2px solid #ffff; */
@@ -943,6 +945,14 @@ footer {
     font-size: 20px;
 }
 
+.unipalabra{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logouniq{
+    width: 266px;
+}
 /* copyright */
 
 .bar {

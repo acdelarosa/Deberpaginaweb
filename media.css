@@ -1,17 +1,17 @@
-@media (max-width: 999px) {
+@media (max-width: 900px) {
     * {
         overflow-x: hidden;
+    }
+
+    .home_section_vertical_social{
+        display: none;
     }
 }
 
 
 @media (max-width: 864px) {
 
-    /* home section */
-    /* .home_section_presentation {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    } */
+  
 
     .login {
         display: none;
@@ -49,7 +49,7 @@
     }
 
     .home_section_vertical_social {
-        display: none;
+     display: none !important;
     }
 
     .lupa {
@@ -59,6 +59,7 @@
     }
 
     /* first container titulos */
+
     .worldwide {
         font-size: 20px;
 
@@ -76,7 +77,18 @@
     .imagenespdos{
         font-size: 15px;
     }
+    
+    /* prev next */
+    .prevnext{
+        font-size: 15px;
+        height: 10px;
+    }
 
+    .btn-primary{
+        font-weight: 40px;
+        padding: 10px 40px;
+
+    }
 
     /* contenedor dos textos */
 
@@ -88,7 +100,7 @@
     .rent {
         font-size: 30px;
     }
-
+    
     .parrafo {
         font-size: 10px;
     }
@@ -96,10 +108,10 @@
     /* titulo tercer cuadro */
 
     .tercer-luxury {
-        font-size: 30px;
+        font-size: 25px;
     }
 
-    .tercer-titulo.developments{
+    .tercer-titulo-developments{
         font-size: 40px;
     }
 
@@ -141,7 +153,66 @@
     font-size: 15px;
 }
 
+/* footer */
+
+.footer{
+    height: 400px;
+}
+
+.suscribe{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr !important; */
+    height: 50px;
+    z-index: 55;
+    top: -10%;
+    width: 60%;
+    padding: 16px 25px;
+    gap: 10%;
+
+}
 
 
+.join{
+    font-size: 10px;
+}
 
+.unlock{
+    font-size: 25px;
+}
+
+/* inicio cuadro negro */
+
+.cuadro_negro{
+    line-height: 40px;
+    z-index: 1;
+}
+
+.logouniq{
+width: 10px;
+}
+
+.textofooter{
+    font-size: 13px;
+}
+
+.contacto{
+    font-size: 15px ;
+}
+
+.logouniq{
+    width: 100px;
+}
+
+/* fin cuadro negro */
+
+/* copyright */
+
+.bar{
+    bottom: 3%;
+}
+
+.copyright{
+    margin-bottom: 10px;
+    bottom: 5px;
+}
 }
