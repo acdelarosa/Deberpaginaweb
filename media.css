@@ -3,7 +3,7 @@
         overflow-x: hidden;
     }
 
-    .home_section_vertical_social{
+    .home_section_vertical_social {
         display: none;
     }
 }
@@ -11,7 +11,7 @@
 
 @media (max-width: 864px) {
 
-  
+
 
     .login {
         display: none;
@@ -49,48 +49,75 @@
     }
 
     .home_section_vertical_social {
-     display: none !important;
+        display: none !important;
     }
 
     .lupa {
         position: absolute;
-        align-self: center;
-
+        /* align-self: center !important; */
+        left: 15%;
+        position: absolute !important;
+        bottom: 650px;
     }
+
 
     /* first container titulos */
 
+    .primercontenedor {
+        -webkit-flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column-reverse
+    }
+
+    .contenedor-textos {
+        width: 100%;
+    }
+
     .worldwide {
         font-size: 20px;
-
+        text-align: left;
     }
 
     .properties {
         font-size: 30px;
+        text-align: left;
     }
 
-    .imagenesp{
-        font-size: 10px;
-    
+    .imagenesp {
+        font-size: 5%;
+        line-height: 1%;
+
     }
 
-    .imagenespdos{
+    .imagenespdos {
         font-size: 15px;
     }
-    
+
     /* prev next */
-    .prevnext{
-        font-size: 15px;
-        height: 10px;
+    .prevnext {
+        display: none;
+        font-size: 10px;
+        height: 15px;
     }
 
-    .btn-primary{
+    .btn-primary {
         font-weight: 40px;
-        padding: 10px 40px;
-
+        padding: 10px 30px;
+        border: none;
+        color: #DF991B;
+        justify-self: left;
     }
 
     /* contenedor dos textos */
+
+    .contenedor_dos {
+        display: block;
+        flex-direction: row;
+    }
+
+    .textos-dos {
+        padding: 0 10px;
+    }
 
     .worldwide-dos {
         font-size: 20px;
@@ -100,7 +127,7 @@
     .rent {
         font-size: 30px;
     }
-    
+
     .parrafo {
         font-size: 10px;
     }
@@ -111,108 +138,217 @@
         font-size: 25px;
     }
 
-    .tercer-titulo-developments{
+    .tercer-titulo-developments {
         font-size: 40px;
     }
 
 
-    .imagenespa{
+    .imagenespa {
         font-size: 10px;
     }
 
-    .imagenespados{
+    .imagenespados {
         font-size: 15px;
     }
 
     /* tercer cuadro */
 
-    .pais{
+    .contenedorimg {
+        display: grid;
+        grid-template-columns: repeat(autofit,
+                minmax(1fr));
+    }
+
+
+    .sitiotres {
+        padding: 3px;
+        height: 60px;
+        width: 100%;
+        line-height: 10px;
+    }
+
+    .sitiotres:hover {
+        height: 70px;
+    }
+
+    .pais {
         font-size: 10px;
     }
 
-    .titulo{
+    .titulo {
+        font-size: 14px;
+    }
+
+
+    /* cuarto cuadro */
+
+
+
+    .services {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .propertiescuatro {
+        font-size: 20px;
+        line-height: 25px;
+        overflow: hidden;
+    }
+
+    .parrafolargo {
         font-size: 15px;
     }
 
 
-/* cuarto cuadro */
+    /* contenedor de textos cuatro */
+
+    .container-cuarto {
+        -webkit-flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+        margin-top: 8%;
+        margin-bottom: 15%;
+        object-fit: contain;
+        padding: 5%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .contenedor-imagenescuatro {
+        height: fit-content;
+        margin-bottom: 5%;
+        padding: 5px;
+        box-sizing: content-box;
+        object-fit: cover;
+        overflow: hidden;
+        z-index: 5;
+
+
+    }
+
+    .imagencuatro {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        top: 10%;
+        object-position: center;
+    }
+
+
+    .contenedor-textoscuatro {
+        padding: 0 30px;
+        height: fit-content;
+    }
 
 
 
-.services{
-    font-size: 15px;
-    line-height: 20px;
+
+    /* footer */
+
+    .footer {
+        height: fit-content !important;
+        width: 100%;
+        overflow: hidden;
+        overflow-x: hidden;
+        margin-top: 35%;
+        object-fit: contain;
+        min-height: 100%;
+        flex-wrap: wrap;
+        line-height: 2%;
+        padding: 0 20% 0 20%;
+    }
+
+    .suscribe {
+        display: flex !important;
+        flex-direction: column;
+        height: fit-content;
+        z-index: 550;
+        width: 80%;
+        padding: 16px 25px;
+        gap: 15%;
+        overflow: hidden;
+        margin-top: 20%;
+        top: -25%;
+       
+    }
+
+    .join {
+        font-size: 10px;
+    }
+
+    .unlock {
+        font-size: 25px;
+    }
+
+
+
+
+    /* inicio cuadro negro */
+
+    .cuadro_negro {
+        line-height: 25px;
+        z-index: 1;
+        display: flex !important;
+        flex-direction: column;
+        height: fit-content;
+        gap: 1%;
+        top: 40%;
+        margin: 5%;
+        overflow: hidden;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .textofooter {
+        font-size: 13px;
+    }
+
+    .contacto {
+        font-size: 15px;
+    }
+
+    .bar {
+        display: none;
+    }
+
+
+
+    /* fin cuadro negro */
+
+    /* copyright */
+
+    .bar {
+        bottom: 3%;
+    }
+
+    .copyright {
+        margin-bottom: 10px;
+        bottom: 5px;
+    }
+
+    .redes {
+        display: block;
+    }
 }
 
-.propertiescuatro{
-    font-size: 20px;
-    line-height: 20px;
+@media(max-widht: 605px){
+   /* tercer cuadro */
+    .contenedorimg{
+        display: flex;
+        flex-direction: column;
+    }
+
+   .dos{
+    display: none;
+   }
 }
 
-.parrafolargo{
-    font-size: 15px;
-}
-
-/* footer */
-
-.footer{
-    height: 400px;
-}
-
-.suscribe{
-    display: grid;
-    /* grid-template-rows: 1fr 1fr !important; */
-    height: 50px;
-    z-index: 55;
-    top: -10%;
-    width: 60%;
-    padding: 16px 25px;
-    gap: 10%;
-
-}
-
-
-.join{
-    font-size: 10px;
-}
-
-.unlock{
-    font-size: 25px;
-}
-
-/* inicio cuadro negro */
-
-.cuadro_negro{
-    line-height: 40px;
-    z-index: 1;
-}
-
-.logouniq{
-width: 10px;
-}
-
-.textofooter{
-    font-size: 13px;
-}
-
-.contacto{
-    font-size: 15px ;
-}
-
-.logouniq{
-    width: 100px;
-}
-
-/* fin cuadro negro */
-
-/* copyright */
-
-.bar{
-    bottom: 3%;
-}
-
-.copyright{
-    margin-bottom: 10px;
-    bottom: 5px;
-}
+@media(max-widht: 488px){
+    /*footer*/
+    .suscribe{
+        top: -30%;
+    }
 }

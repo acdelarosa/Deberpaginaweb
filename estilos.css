@@ -400,7 +400,7 @@ body {
     color: #DF991B;
     font-size: 30px;
     text-align: right;
-    display: block;
+    /* display: block; */
 }
 
 .properties {
@@ -730,7 +730,9 @@ body {
     width: 100%;
     top: 1804px;
     height: 780px;
-
+    max-width: max-content;
+    min-width: 320px;
+    align-self: center;
 
 }
 
@@ -740,19 +742,23 @@ body {
     height: 780px;
     margin-left: 70px;
     align-content: center;
+    min-width: 320px;
+    max-width: 1200px;
+    
 }
 
 
 .imagencuatro {
     overflow: hidden;
     position: relative;
-    height: 750px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     overflow-y: hidden;
     overflow: hidden;
-
-
+    bottom: 30%;
+    size: 100%;
+    
 }
 
 
@@ -766,6 +772,7 @@ body {
 
 .lineadorada {
     top: 110px;
+    width: 100%;
 }
 
 .services {
@@ -858,8 +865,9 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-    padding: 16px 50px;
+    padding: 16px 50px 0 25px;
     width: 80%;
+    height:fit-content;
     align-self: center;
     justify-content: center;
     position: absolute;
@@ -924,7 +932,7 @@ footer {
     /* border-bottom: 2px solid #ffff; */
     padding-bottom: 5%;
     gap: 5%;
-    top: 40%;
+    top: 30%;
     position: relative;
 
 
@@ -948,11 +956,19 @@ footer {
 .unipalabra{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 3%;
+    width: fit-content;
 }
 
 .logouniq{
     width: 266px;
 }
+
+.redes{
+    color: #ffff;
+    display: none;
+}
+
 /* copyright */
 
 .bar {
