@@ -92,6 +92,11 @@
         text-align: left;
     }
 
+    .parrafouno{
+        display: block;
+
+    }
+
     .imagenesp {
         font-size: 5%;
         line-height: 1%;
@@ -138,7 +143,7 @@
     }
 
     .parrafo {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     /* titulo tercer cuadro */
@@ -389,15 +394,17 @@
     /* cuarto cuadro */
 
     .contenedor-imagenescuatro {
-        height: 100px;
-        margin-bottom: 5px;
-        padding: 5px;
+        height: 400px;
+        width: 300px;
+        padding: 0;
+        margin-left: 0;
+        object-fit: contain;
+        background-image: url(./img/cuartocuadroimg.png);
     }
 
     .imagencuatro {
-        height: 75px;
-        width: 50px;
-    }
+        display: none;
+         }
 
     /* footer */
 
@@ -412,6 +419,19 @@
     .unlock {
         font-size: 20px;
     }
+
+    .flechita{
+        display: inline-flex;
+        size: 2px;
+    }
+    
+
+
+    .botones{
+        margin-left: 0;
+    }
+
+
 
 
 
