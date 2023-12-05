@@ -169,7 +169,7 @@
 
     /* tercer cuadro */
 
-   
+
     .sitiotres {
         padding: 3px;
         height: 60px;
@@ -344,18 +344,7 @@
     }
 }
 
-@media(max-widht: 605px) {
 
-    /* tercer cuadro */
-    .contenedorimg {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .dos {
-        display: none;
-    }
-}
 
 @media(max-widht: 488px) {
 
@@ -367,18 +356,9 @@
 
 }
 
-@media(max-widht:320px) {
-    .lupa {
-        align-self: center;
-        left: 5px;
-    }
-
-    .search {
-        padding: 8px 15px;
-        width: 80%;
-
-    }
-
+@media (max-width: 320px) {
+    
+    
     .home_section__container-text {
         width: 80%;
         line-height: 50px;
@@ -394,6 +374,50 @@
     .rstate {
         font-size: 45px;
     }
+
+
+    /* tercer cuadro */
+    .contenedorimg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dos {
+        display: none;
+    }
+
+    /* cuarto cuadro */
+
+    .contenedor-imagenescuatro {
+        height: 100px;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+
+    .imagencuatro {
+        height: 75px;
+        width: 50px;
+    }
+
+    /* footer */
+
+    .suscribe {
+        top: -15%;
+    }
+
+    .join {
+        font-size: 15px;
+    }
+
+    .unlock {
+        font-size: 20px;
+    }
+
+
+
+
+
+
 
 
 
