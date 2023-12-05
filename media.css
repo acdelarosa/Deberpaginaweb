@@ -41,15 +41,16 @@
     }
 
     .luxury {
-        font-size: ;
+        font-size: 30px;
     }
 
-    .home_section__container-text{
-        padding: 5px;
+    .home_section__container-text {
+        padding: 100px 5px !important;
+        width: 500px;
     }
 
     .home_section__container-text h1 {
-        font-size: 30%;
+        font-size: 45px !important;
     }
 
     .home_section_vertical_social {
@@ -57,11 +58,15 @@
     }
 
     .lupa {
-        position: absolute;
+
         /* align-self: center !important; */
         left: 10%;
         position: absolute !important;
         bottom: 650px;
+    }
+
+    .search {
+        width: 97%;
     }
 
 
@@ -138,12 +143,19 @@
 
     /* titulo tercer cuadro */
 
+    .tercer-titulo {
+        margin: 10px;
+    }
+
     .tercer-luxury {
         font-size: 25px;
+        text-align: left;
+        display: flex;
     }
 
     .tercer-titulo-developments {
         font-size: 40px;
+        text-align: left;
     }
 
 
@@ -157,13 +169,7 @@
 
     /* tercer cuadro */
 
-    .contenedorimg {
-        display: grid;
-        grid-template-columns: repeat(autofit,
-                minmax(1fr));
-    }
-
-
+   
     .sitiotres {
         padding: 3px;
         height: 60px;
@@ -357,6 +363,8 @@
     .suscribe {
         top: -30%;
     }
+
+
 }
 
 @media(max-widht:320px) {
@@ -371,19 +379,29 @@
 
     }
 
-    .home_section__container-text{
-        padding: 10px;
+    .home_section__container-text {
+        width: 80%;
+        line-height: 50px;
+        bottom: 5%;
+        left: 24px;
     }
 
-    .home_section__presentation .home_section__container-text h1{
-        font-size: 50px;
+    .luxury {
+        font-size: 18px;
+
     }
 
-    .home_section__presentation .home_section__container-text p{
-        font-size: 20px;
+    .rstate {
+        font-size: 45px;
     }
 
-    
+
+
+
+
+
+
+
 
 
 
