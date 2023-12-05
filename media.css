@@ -92,7 +92,7 @@
         text-align: left;
     }
 
-    .parrafouno{
+    .parrafouno {
         display: block;
 
     }
@@ -362,8 +362,8 @@
 }
 
 @media (max-width: 320px) {
-    
-    
+
+
     .home_section__container-text {
         width: 80%;
         line-height: 50px;
@@ -385,10 +385,30 @@
     .contenedorimg {
         display: flex;
         flex-direction: column;
+        margin: 15px;
+
     }
 
     .dos {
         display: none;
+    }
+
+    .sitiotres {
+        height: 30%;
+    }
+
+    .sitiotres:hover {
+        height: 40%;
+        cursor: pointer;
+    }
+
+    .pais {
+        font-size: 15px;
+
+    }
+
+    .titulo {
+        font-size: 15px;
     }
 
     /* cuarto cuadro */
@@ -404,13 +424,14 @@
 
     .imagencuatro {
         display: none;
-         }
+    }
 
     /* footer */
 
     .suscribe {
         top: -15%;
     }
+
 
     .join {
         font-size: 15px;
@@ -420,14 +441,20 @@
         font-size: 20px;
     }
 
-    .flechita{
+    .contacto {
+        font-size: 15px;
+    }
+    
+    /* botones */
+
+    .flechita {
         display: inline-flex;
         size: 2px;
     }
-    
 
 
-    .botones{
+
+    .botones {
         margin-left: 0;
     }
 
